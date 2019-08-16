@@ -20,7 +20,7 @@ public class TestSocket {
             out.write("\n".getBytes());
 
             int i = in.read();
-            while(i != -1){
+            while(i != -1){//-1 stands for last resived char
                 System.out.print((char)i);
                 i = in.read();
             }
