@@ -1,4 +1,4 @@
-package cn.itcast.mytomcatv2;
+package mytomcatv2;
 
 import java.io.IOException;
 import java.io.InputStream;
